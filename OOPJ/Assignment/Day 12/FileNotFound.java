@@ -1,19 +1,18 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileNotFoundException;
 
 public class FileNotFound {
-    public static void readFile(String filePath) throws FileNotFoundException, IOException {
-        File file = new File(filePath);
-        FileReader fileReader = new FileReader(file);
-        BufferedReader reader = new BufferedReader(fileReader);
-        String line;
-        while ((line = reader.readLine()) != null) {
-            System.out.println(line);
+    public static void main(String[] args) { 
+        try{
+		String fileName = "xyz.txt";
+		FileReader fileReader = new FileReader(fileName);
+		int line = fileReader.read();
+            	System.out.println("File content: " + line);
+		fileReader.close();
+			
+        } catch (FileNotFoundException e) {
+            System.out.println("Caught an Exception: FileNotFoundException.");
         }
-        reader.close();
-    }
-
-    public static void main(String[] args) throws FileNotFoundException, IOException {
-        readFile("non_existent_file.txt");
-        System.out.println("Program continues after handling exception.");
     }
 }
