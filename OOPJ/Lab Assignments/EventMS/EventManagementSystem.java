@@ -22,7 +22,7 @@ class Participant {
     }
 }
 
-class Event implements Comparable<Event> {
+class Event implements Comparable<Event>{
     int eventId;
     String eventName;
     LocalDate eventDate;
@@ -59,12 +59,14 @@ class Event implements Comparable<Event> {
 public class EventManagementSystem {
     Map<Integer, Event> events = new HashMap<>();
     Set<Event> eventSet = new TreeSet<>();
-
+ 
+    // a. add event
     public void addEvent(Event event) {
         events.put(event.eventId, event);
         eventSet.add(event);
     }
 
+    
     public Event searchEventByName(String name) {
         return events.values().stream().filter(e -> e.eventName.equalsIgnoreCase(name)).findFirst().orElse(null);
     }
