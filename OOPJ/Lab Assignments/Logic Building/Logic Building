@@ -1,0 +1,839 @@
+//1. Swapping of Two number
+
+//Method 1
+
+import java.util.Scanner;
+public class SwapNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter first number (a): ");
+        int a = scanner.nextInt();
+        System.out.print("Enter second number (b): ");
+        int b = scanner.nextInt();
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        
+        System.out.println("After swapping: a = " + a + ", b = " + b);
+        
+        scanner.close();
+    }
+}
+
+//Method 2
+
+import java.util.Scanner;
+public class SwapNumbersXOR {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number (a): ");
+        int a = scanner.nextInt();
+        System.out.print("Enter second number (b): ");
+        int b = scanner.nextInt();
+
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+
+        System.out.println("After swapping: a = " + a + ", b = " + b);
+
+        scanner.close();
+    }
+}
+
+//Method 3
+import java.util.Scanner;
+public class SwapNumbersMultiplication {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number (a): ");
+        int a = scanner.nextInt();
+        System.out.print("Enter second number (b): ");
+        int b = scanner.nextInt();
+
+        if (b != 0) {
+            a = a * b;
+            b = a / b;
+            a = a / b;
+
+            System.out.println("After swapping: a = " + a + ", b = " + b);
+        } else {
+            System.out.println("Cannot swap using multiplication/division when b is 0.");
+        }
+
+        scanner.close();
+    }
+}
+
+
+
+//2. Check number is even or odd
+
+//Method 1
+import java.util.Scanner;
+public class EvenOddCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+        
+        if (num % 2 == 0) {
+            System.out.println(num + " is Even.");
+        } else {
+            System.out.println(num + " is Odd.");
+        }
+        
+        scanner.close();
+    }
+}
+
+//Method 2
+
+import java.util.Scanner;
+public class EvenOddBitwise {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        if ((num & 1) == 0) {
+            System.out.println(num + " is Even.");
+        } else {
+            System.out.println(num + " is Odd.");
+        }
+
+        scanner.close();
+    }
+}
+
+
+//Method 3
+
+import java.util.Scanner;
+public class EvenOddDivision {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        if ((num / 2) * 2 == num) {
+            System.out.println(num + " is Even.");
+        } else {
+            System.out.println(num + " is Odd.");
+        }
+
+        scanner.close();
+    }
+}
+
+
+
+//3. Greatest of 3 numbers
+
+//Method 1
+
+import java.util.Scanner;
+pulic class LargestNumberIfElse {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = scanner.nextInt();
+        System.out.print("Enter second number: ");
+        int b = scanner.nextInt();
+        System.out.print("Enter third number: ");
+        int c = scanner.nextInt();
+    
+        int largest;
+        if (a >= b && a >= c) {
+            largest = a;
+        } else if (b >= a && b >= c) {
+            largest = b;
+        } else {
+            largest = c;
+        }
+
+        System.out.println("Largest: " + largest);
+
+        scanner.close();
+    }
+}
+
+//Method 2
+
+import java.util.Scanner;
+public class LargestNumberMathMax {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = scanner.nextInt();
+        System.out.print("Enter second number: ");
+        int b = scanner.nextInt();
+        System.out.print("Enter third number: ");
+        int c = scanner.nextInt();
+
+        int largest = Math.max(a, Math.max(b, c));
+
+        System.out.println("Largest: " + largest);
+
+        scanner.close();
+    }
+}
+
+//Method 3
+
+import java.util.Scanner;
+public class LargestNumberTernary {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = scanner.nextInt();
+        System.out.print("Enter second number: ");
+        int b = scanner.nextInt();
+        System.out.print("Enter third number: ");
+        int c = scanner.nextInt();
+
+
+        int largest = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+
+        System.out.println("Largest: " + largest);
+
+        scanner.close();
+    }
+}
+
+
+
+//4. Prime Number 
+
+//Method 1 (Iterative loop)
+
+import java.util.Scanner;
+public class PrimeCheckBasic {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+		
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+        boolean isPrime = true;
+		
+        if (n <= 1) {
+            isPrime = false;
+        } else {
+            for (int i = 2; i < n; i++) {  // Loop from 2 to n-1
+                if (n % i == 0) {
+                    isPrime = false;
+                    break;  // No need to check further
+                }
+            }
+        }
+        System.out.println(n + (isPrime ? " is Prime." : " is Not Prime."));
+
+        scanner.close();
+    }
+}
+
+//Method 2 (Optimised Interative loop)
+
+import java.util.Scanner;
+public class PrimeCheckOptimized {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+
+        boolean isPrime = true;
+
+        if (n <= 1) {
+            isPrime = false;
+        } else {
+            for (int i = 2; i * i <= n; i++) { // Iterate till √n
+                if (n % i == 0) {
+                    isPrime = false;
+                    break;  
+                }
+            }
+        }
+
+        System.out.println(n + (isPrime ? " is Prime." : " is Not Prime."));
+        scanner.close();
+    }
+}
+
+//Method 3 (Recursive Method)
+
+import java.util.Scanner;
+
+public class PrimeCheckRecursive {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+
+        boolean isPrime = isPrime(n, 2); // Start checking from divisor 2
+
+        System.out.println(n + (isPrime ? " is Prime." : " is Not Prime."));
+
+        scanner.close();
+    }
+
+    static boolean isPrime(int n, int i) {
+        if (n <= 1) return false; // 0 and 1 are not prime
+        if (i * i > n) return true; // If no divisor found till √n, it's prime
+        if (n % i == 0) return false; // If divisible, it's not prime
+        return isPrime(n, i + 1); // Recursively check for next divisor
+    }
+}
+
+
+
+//5. Reverse a number
+
+//Method 1
+
+import java.util.Scanner;
+public class ReverseNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int reversed = 0;
+        while (num != 0) {
+            int digit = num % 10;  // Extract the last digit
+            reversed = reversed * 10 + digit;  // Append digit to reversed number
+            num /= 10;  // Remove last digit
+        }
+
+        System.out.println("Reversed Number: " + reversed);
+
+        scanner.close();
+    }
+}
+
+
+//Method 2 (StringBuilder Method)
+
+import java.util.Scanner;
+public class ReverseNumberString {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        String reversed = new StringBuilder(String.valueOf(num)).reverse().toString();
+
+        System.out.println("Reversed Number: " + reversed);
+
+        scanner.close();
+    }
+}
+
+// Method 3 (Recursive Method)
+
+import java.util.Scanner;
+public class ReverseNumberRecursion {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        System.out.println("Reversed Number: " + reverse(num, 0));
+
+        scanner.close();
+    }
+
+    static int reverse(int num, int rev) {
+        if (num == 0) return rev;  // Base case
+        return reverse(num / 10, rev * 10 + num % 10); 
+    }
+}
+
+
+
+//6. Number is Palindrome
+
+//Method 1 
+
+import java.util.Scanner;
+public class PalindromeCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int original = num, reversed = 0;
+        while (num != 0) {
+            int digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num /= 10;
+        }
+
+        System.out.println(original == reversed ? "Palindrome" : "Not Palindrome");
+        scanner.close();
+    }
+}
+
+//Method 2 (Using Recursion)
+
+import java.util.Scanner;
+public class PalindromeRecursive {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        System.out.println(isPalindrome(num, num, 0) ? "Palindrome" : "Not Palindrome");
+        scanner.close();
+    }
+
+    static boolean isPalindrome(int num, int original, int rev) {
+        if (num == 0) return original == rev;
+        return isPalindrome(num / 10, original, rev * 10 + num % 10);
+    }
+}
+
+
+
+//7. Sum of digits 
+
+//Method 1
+
+import java.util.Scanner;
+public class SumOfDigits {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int sum = 0;
+        while (num != 0) {
+            sum += num % 10;
+            num /= 10;
+        }
+
+        System.out.println("Sum: " + sum);
+        scanner.close();
+    }
+}
+
+//Method 2 (Using Recursion)
+
+import java.util.Scanner;
+public class SumDigitsRecursive {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        System.out.println("Sum: " + sumDigits(num));
+        scanner.close();
+    }
+
+    static int sumDigits(int num) {
+        return (num == 0) ? 0 : num % 10 + sumDigits(num / 10);
+    }
+}
+
+
+
+//8. Check if a number is Armstrong
+
+//Method 1
+
+import java.util.Scanner;
+public class ArmstrongCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int original = num, sum = 0;
+        while (num != 0) {
+            int digit = num % 10;
+            sum += digit * digit * digit;
+            num /= 10;
+        }
+
+        System.out.println(original == sum ? "Armstrong Number" : "Not Armstrong");
+        scanner.close();
+    }
+}
+
+//Method 2 (Using Recursion)
+
+import java.util.Scanner;
+public class ArmstrongRecursive {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+        int length = String.valueOf(num).length();
+
+        System.out.println(num == armstrong(num, length) ? "Armstrong Number" : "Not Armstrong");
+        scanner.close();
+    }
+
+    static int armstrong(int num, int length) {
+        return (num == 0) ? 0 : (int) Math.pow(num % 10, length) + armstrong(num / 10, length);
+    }
+}
+
+
+
+//9. Factorial
+
+//Method 1
+
+import java.util.Scanner;
+public class FactorialLoop {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int fact = 1;
+        for (int i = 1; i <= num; i++) fact *= i;
+
+        System.out.println("Factorial: " + fact);
+        scanner.close();
+    }
+}
+
+//Method 2 (Using Recursion)
+
+import java.util.Scanner;
+public class FactorialRecursive {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        System.out.println("Factorial: " + factorial(num));
+        scanner.close();
+    }
+
+    static int factorial(int n) {
+        return (n <= 1) ? 1 : n * factorial(n - 1);
+    }
+}
+
+
+
+//10. Number is Perfect
+
+//Method 1
+
+import java.util.Scanner;
+public class PerfectNumberCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int sum = 0;
+        for (int i = 1; i <= num / 2; i++) {
+            if (num % i == 0) sum += i;
+        }
+
+        System.out.println(num == sum ? "Perfect Number" : "Not Perfect");
+        scanner.close();
+    }
+}
+
+//Method 2 (Using Recursion)
+
+import java.util.Scanner;
+public class PerfectNumberRecursive {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        System.out.println(num == sumDivisors(num, num / 2) ? "Perfect Number" : "Not Perfect");
+        scanner.close();
+    }
+
+    static int sumDivisors(int num, int i) {
+        if (i == 0) return 0;
+        return (num % i == 0) ? i + sumDivisors(num, i - 1) : sumDivisors(num, i - 1);
+    }
+}
+
+
+
+//11. Fibonacci Series up to N
+
+//Method 1 Using Iteration
+
+import java.util.Scanner;
+public class FibonacciIterative {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        int a = 0, b = 1;
+        for (int i = 0; i < n; i++) {
+            System.out.print(a + " ");
+            int temp = a + b;
+            a = b;
+            b = temp;
+        }
+        sc.close();
+    }
+}
+
+//Method 2 Using Recursion
+
+import java.util.Scanner;
+public class FibonacciRecursive {
+    public static int fib(int n) {
+        if (n <= 1) return n;
+        return fib(n - 1) + fib(n - 2);
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            System.out.print(fib(i) + " ");
+        }
+        sc.close();
+    }
+}
+
+
+//12. Find the power of a number
+
+// Method 1
+
+import java.util.Scanner;
+public class PowerUsingMathPow {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter base: ");
+        int base = sc.nextInt();
+        System.out.print("Enter exponent: ");
+        int exponent = sc.nextInt();
+
+        System.out.println("Result: " + Math.pow(base, exponent));
+        sc.close();
+    }
+}
+
+//Method 2
+
+import java.util.Scanner;
+
+public class PowerUsingRecursion {
+    public static int power(int base, int exponent) {
+        if (exponent == 0) return 1;  // Base case
+        return base * power(base, exponent - 1);
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter base: ");
+        int base = sc.nextInt();
+        System.out.print("Enter exponent: ");
+        int exponent = sc.nextInt();
+
+        System.out.println("Result (Recursion): " + power(base, exponent));
+        sc.close();
+    }
+}
+
+
+
+//13. Sum of N Natural Number
+
+//Method 1
+
+import java.util.Scanner;
+public class SumUsingFormula {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        int sum = n * (n + 1) / 2;
+        System.out.println("Sum using formula: " + sum);
+
+        sc.close();
+    }
+}
+
+//Method 2
+
+import java.util.Scanner;
+public class SumUsingLoop {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum += i;
+        }
+
+        System.out.println("Sum using loop: " + sum);
+        sc.close();
+    }
+}
+
+
+
+//14. Square of Squares of N Natural Number
+
+//Method 1
+
+import java.util.Scanner;
+public class SumOfSquaresFormula {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        int sum = n * (n + 1) * (2 * n + 1) / 6;
+        System.out.println("Sum of squares using formula: " + sum);
+
+        sc.close();
+    }
+}
+
+//Method 2
+
+import java.util.Scanner;
+public class SumOfSquaresLoop {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum += i * i;
+        }
+
+        System.out.println("Sum of squares using loop: " + sum);
+        sc.close();
+    }
+}
+
+
+
+// 15. Sum of Cubes of N Natural Number
+
+//Method 1
+
+import java.util.Scanner;
+public class SumOfCubesFormula {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        int sum = (n * (n + 1) / 2);
+        sum = sum * sum; // Square of the sum of first N natural numbers
+
+        System.out.println("Sum of cubes using formula: " + sum);
+        sc.close();
+    }
+}
+
+//Method 2
+
+import java.util.Scanner;
+public class SumOfCubesLoop {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = sc.nextInt();
+
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum += i * i * i;
+        }
+
+        System.out.println("Sum of cubes using loop: " + sum);
+        sc.close();
+    }
+}
+
+
+
+//16. Find the sum until single digit is left
+
+//Method 1
+
+import java.util.Scanner;
+public class SumOfDigitsLoop {
+    public static int getSingleDigitSum(int num) {
+        while (num >= 10) {  // Continue until single digit remains
+            int sum = 0;
+            while (num > 0) {
+                sum += num % 10; // Extract the last digit and add to sum
+                num /= 10;       // Remove the last digit
+            }
+            num = sum; // Update num with the new sum
+        }
+        return num;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        System.out.println("Single digit sum: " + getSingleDigitSum(num));
+        sc.close();
+    }
+}
+
+//Method 2 (Recursion)
+
+import java.util.Scanner;
+public class SumOfDigitsRecursion {
+    public static int getSingleDigitSum(int num) {
+        if (num < 10) return num; // Base case: If already a single digit, return it
+
+        int sum = 0;
+        while (num > 0) {
+            sum += num % 10; // Extract the last digit and add to sum
+            num /= 10;       // Remove the last digit
+        }
+        
+        return getSingleDigitSum(sum); // Recursive call
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        System.out.println("Single digit sum: " + getSingleDigitSum(num));
+        sc.close();
+    }
+}
+
+
+
+// 
