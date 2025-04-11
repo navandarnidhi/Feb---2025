@@ -77,39 +77,109 @@ INSERT INTO SPJ VALUES ('S2', 'P3', 'J1', 150);
 INSERT INTO SPJ VALUES ('S3', 'P1', 'J3', 400);
 
 5. Display all the data from the S table.    
-SELECT * FROM S;
+mysql> SELECT * FROM S;
++----+-------+--------+----------+
+| S# | Sname | Status | City     |
++----+-------+--------+----------+
+| S1 | Smith |     20 | London   |
+| S2 | Jones |     10 | Paris    |
+| S3 | Blake |     30 | New York |
++----+-------+--------+----------+
+3 rows in set (0.00 sec)
   
-6. Display only the S# and SNAME fields from the S table.    
-SELECT `S#`, Sname FROM S;
+6. Display only the S# and SNAME fields from the S table.   
+mysql> SELECT `S#`, Sname FROM S;
++----+-------+
+| S# | Sname |
++----+-------+
+| S1 | Smith |
+| S2 | Jones |
+| S3 | Blake |
++----+-------+
+3 rows in set (0.00 sec)
 
 7. Display the PNAME and COLOR from the P table for the CITY=”London”.    
-SELECT Pname, Color FROM P WHERE City = 'London';
-  
++-------+-------+
+| Pname | Color |
++-------+-------+
+| Bolt  | Red   |
++-------+-------+
+1 row in set (0.00 sec)
+
 8. Display all the Suppliers from London.    
-SELECT * FROM S WHERE City = 'London';
- 
+mysql> SELECT * FROM S WHERE City = 'London';
++----+-------+--------+--------+
+| S# | Sname | Status | City   |
++----+-------+--------+--------+
+| S1 | Smith |     20 | London |
++----+-------+--------+--------+
+1 row in set (0.00 sec)
+
 9. Display all the Suppliers from Paris or Athens.    
-SELECT * FROM S WHERE City = 'Paris' OR City = 'Athens';
+mysql> SELECT * FROM S WHERE City = 'Paris' OR City = 'Athens';
++----+-------+--------+-------+
+| S# | Sname | Status | City  |
++----+-------+--------+-------+
+| S2 | Jones |     10 | Paris |
++----+-------+--------+-------+
+1 row in set (0.00 sec)
 
 10. Display all the Projects in Athens.    
-SELECT * FROM J WHERE City = 'Athens';
+mysql> SELECT * FROM J WHERE City = 'Athens';
+Empty set (0.00 sec)
   
 11. Display all the Partnames with the weight between 12 and 14 (inclusive of both).    
-SELECT Pname FROM P WHERE Weight BETWEEN 12 AND 14;
+mysql> SELECT Pname FROM P WHERE Weight BETWEEN 12 AND 14;
++-------+
+| Pname |
++-------+
+| Bolt  |
++-------+
+1 row in set (0.00 sec)
 
 12. Display all the Suppliers with a Status greater than or equal to 20.    
-SELECT * FROM S WHERE Status >= 20;
+mysql> SELECT * FROM S WHERE Status >= 20;
++----+-------+--------+----------+
+| S# | Sname | Status | City     |
++----+-------+--------+----------+
+| S1 | Smith |     20 | London   |
+| S3 | Blake |     30 | New York |
++----+-------+--------+----------+
+2 rows in set (0.00 sec)
 
 13. Display all the Suppliers except the Suppliers from London.      
-SELECT * FROM S WHERE City <> 'London';
+mysql> SELECT * FROM S WHERE City <> 'London';
++----+-------+--------+----------+
+| S# | Sname | Status | City     |
++----+-------+--------+----------+
+| S2 | Jones |     10 | Paris    |
+| S3 | Blake |     30 | New York |
++----+-------+--------+----------+
+2 rows in set (0.00 sec)
 
 14. Display only the Cities from where the Suppliers come from.   
-SELECT DISTINCT City FROM S; 
+mysql> SELECT DISTINCT City FROM S;
++----------+
+| City     |
++----------+
+| London   |
+| Paris    |
+| New York |
++----------+
+3 rows in set (0.00 sec)
     
 15. Assuming that the Part Weight is in GRAMS, display the same in MILLIGRAMS and KILOGRAMS.
-SELECT 
-    Pname,
-    Weight AS Grams,
-    Weight * 1000 AS Milligrams,
-    Weight / 1000 AS Kilograms
-FROM P;
+mysql> SELECT
+    ->     Pname,
+    ->     Weight AS Grams,
+    ->     Weight * 1000 AS Milligrams,
+    ->     Weight / 1000 AS Kilograms
+    -> FROM P;
++-------+-------+------------+-----------+
+| Pname | Grams | Milligrams | Kilograms |
++-------+-------+------------+-----------+
+| Bolt  |  12.5 |      12500 |    0.0125 |
+| Nut   |   5.5 |       5500 |    0.0055 |
+| Screw |     8 |       8000 |     0.008 |
++-------+-------+------------+-----------+
+3 rows in set (0.00 sec)
