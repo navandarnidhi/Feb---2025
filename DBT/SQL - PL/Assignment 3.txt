@@ -1,0 +1,337 @@
+1. Write a program containing a loop that iterates from 1 to 1000 using a variable I,                         
+which is incremented each time around the loop. The program should output the 
+value of I every hundred iterations (i.e., the output should be 100, 200, etc.). 
+
+mysql> CREATE PROCEDURE print_every_100()
+    -> BEGIN
+    ->   DECLARE i INT DEFAULT 1;
+    ->
+    ->   WHILE i <= 1000 DO
+    ->     IF MOD(i, 100) = 0 THEN
+    ->       SELECT CONCAT('Value: ', i);
+    ->     END IF;
+    ->     SET i = i + 1;
+    ->   END WHILE;
+    -> END;
+    -> //
+ERROR 1046 (3D000): No database selected
+mysql>
+mysql> DELIMITER ;
+mysql>
+mysql> call print_every_100()
+    -> ;
+ERROR 1046 (3D000): No database selected
+mysql> use cdac;
+Database changed
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE print_every_100()
+    -> BEGIN
+    ->   DECLARE i INT DEFAULT 1;
+    ->
+    ->   WHILE i <= 1000 DO
+    ->     IF MOD(i, 100) = 0 THEN
+    ->       SELECT CONCAT('Value: ', i);
+    ->     END IF;
+    ->     SET i = i + 1;
+    ->   END WHILE;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql>
+mysql> call print_every_100()
+    -> ;
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 100           |
++----------------------+
+1 row in set (0.03 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 200           |
++----------------------+
+1 row in set (0.03 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 300           |
++----------------------+
+1 row in set (0.03 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 400           |
++----------------------+
+1 row in set (0.03 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 500           |
++----------------------+
+1 row in set (0.03 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 600           |
++----------------------+
+1 row in set (0.03 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 700           |
++----------------------+
+1 row in set (0.03 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 800           |
++----------------------+
+1 row in set (0.04 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 900           |
++----------------------+
+1 row in set (0.04 sec)
+
++----------------------+
+| CONCAT('Value: ', i) |
++----------------------+
+| Value: 1000          |
++----------------------+
+1 row in set (0.04 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+   
+2. Write a program that examines all the numbers from 1 to 999, displaying all those 
+for which the sum of the cubes of the digits equal the number itself.  
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE armstrong_numbers()
+    -> BEGIN
+    ->   DECLARE i, num, digit, sum INT DEFAULT 0;
+    ->
+    ->   SET i = 1;
+    ->   WHILE i < 1000 DO
+    ->     SET num = i;
+    ->     SET sum = 0;
+    ->     WHILE num > 0 DO
+    ->       SET digit = MOD(num, 10);
+    ->       SET sum = sum + POW(digit, 3);
+    ->       SET num = FLOOR(num / 10);
+    ->     END WHILE;
+    ->     IF sum = i THEN
+    ->       SELECT CONCAT('Armstrong Number: ', i) AS Output;
+    ->     END IF;
+    ->     SET i = i + 1;
+    ->   END WHILE;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> call armstrong_numbers();
++---------------------+
+| Output              |
++---------------------+
+| Armstrong Number: 1 |
++---------------------+
+1 row in set (0.02 sec)
+
++-----------------------+
+| Output                |
++-----------------------+
+| Armstrong Number: 153 |
++-----------------------+
+1 row in set (0.03 sec)
+
++-----------------------+
+| Output                |
++-----------------------+
+| Armstrong Number: 370 |
++-----------------------+
+1 row in set (0.03 sec)
+
++-----------------------+
+| Output                |
++-----------------------+
+| Armstrong Number: 371 |
++-----------------------+
+1 row in set (0.03 sec)
+
++-----------------------+
+| Output                |
++-----------------------+
+| Armstrong Number: 407 |
++-----------------------+
+1 row in set (0.03 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+ 
+3. Write a program that Selects from any table a minimum and maximum value for a 
+radius, along with an increment factor, and generates a series of radii by repeatedly 
+adding the increment to the minimum until the maximum is reached. For each value 
+of the radius, compute and display the circumference, area, and volume of the 
+sphere. (Be sure to include both the maximum and the minimum values.).  
+
+mysql> CREATE TABLE radius_params (
+    ->   min_radius DOUBLE,
+    ->   max_radius DOUBLE,
+    ->   increment_by DOUBLE
+    -> );
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> INSERT INTO radius_params VALUES (1.0, 5.0, 1.0);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE calc_sphere_properties()
+    -> BEGIN
+    ->   DECLARE r DOUBLE;
+    ->   DECLARE min_r DOUBLE;
+    ->   DECLARE max_r DOUBLE;
+    ->   DECLARE inc DOUBLE;
+    ->
+    ->   SELECT min_radius, max_radius, increment_by INTO min_r, max_r, inc FROM radius_params LIMIT 1;
+    ->
+    ->   SET r = min_r;
+    ->   WHILE r <= max_r DO
+    ->     SELECT
+    ->       r AS Radius,
+    ->       (2 * PI() * r) AS Circumference,
+    ->       (PI() * POW(r, 2)) AS Area,
+    ->       ((4/3) * PI() * POW(r, 3)) AS Volume;
+    ->     SET r = r + inc;
+    ->   END WHILE;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+mysql> call calc_sphere_properties();
++--------+-------------------+-------------------+-------------------+
+| Radius | Circumference     | Area              | Volume            |
++--------+-------------------+-------------------+-------------------+
+|      1 | 6.283185307179586 | 3.141592653589793 | 4.188790203739193 |
++--------+-------------------+-------------------+-------------------+
+1 row in set (0.00 sec)
+
++--------+--------------------+--------------------+-------------------+
+| Radius | Circumference      | Area               | Volume            |
++--------+--------------------+--------------------+-------------------+
+|      2 | 12.566370614359172 | 12.566370614359172 | 33.51032162991354 |
++--------+--------------------+--------------------+-------------------+
+1 row in set (0.01 sec)
+
++--------+-------------------+--------------------+-------------------+
+| Radius | Circumference     | Area               | Volume            |
++--------+-------------------+--------------------+-------------------+
+|      3 | 18.84955592153876 | 28.274333882308138 | 113.0973355009582 |
++--------+-------------------+--------------------+-------------------+
+1 row in set (0.01 sec)
+
++--------+--------------------+-------------------+--------------------+
+| Radius | Circumference      | Area              | Volume             |
++--------+--------------------+-------------------+--------------------+
+|      4 | 25.132741228718345 | 50.26548245743669 | 268.08257303930833 |
++--------+--------------------+-------------------+--------------------+
+1 row in set (0.02 sec)
+
++--------+-------------------+-------------------+------------------+
+| Radius | Circumference     | Area              | Volume           |
++--------+-------------------+-------------------+------------------+
+|      5 | 31.41592653589793 | 78.53981633974483 | 523.598775467399 |
++--------+-------------------+-------------------+------------------+
+1 row in set (0.02 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+ 
+4. A palindrome is a word that is spelled the same forward and backward, such as 
+level, radar, etc. Write a program to Selects from any table a five letter word and 
+determine whether it is a palindrome.   
+
+mysql> CREATE TABLE words_table (
+    ->   word VARCHAR(50)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE check_palindromes_5char()
+    -> BEGIN
+    ->   DECLARE done INT DEFAULT FALSE;
+    ->   DECLARE word VARCHAR(50);
+    ->   DECLARE cur CURSOR FOR SELECT word FROM words_table WHERE LENGTH(word) = 5;
+    ->   DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+    ->
+    ->   OPEN cur;
+    ->   read_loop: LOOP
+    ->     FETCH cur INTO word;
+    ->     IF done THEN
+    ->       LEAVE read_loop;
+    ->     END IF;
+    ->
+    ->     IF word = REVERSE(word) THEN
+    ->       SELECT CONCAT('Palindrome: ', word) AS Output;
+    ->     END IF;
+    ->   END LOOP;
+    ->   CLOSE cur;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.03 sec)
+
+mysql>
+mysql> DELIMITER ;
+
+mysql> call check_palindromes_5char();
+Query OK, 0 rows affected (0.00 sec)
+
+5. Modify the above program to Select from any table a variable length word. This 
+requires determining how many characters are read in.   
+
+mysql> DELIMITER //
+mysql>
+mysql> CREATE PROCEDURE check_all_palindromes()
+    -> BEGIN
+    ->   DECLARE done INT DEFAULT FALSE;
+    ->   DECLARE word VARCHAR(50);
+    ->   DECLARE cur CURSOR FOR SELECT word FROM words_table;
+    ->   DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+    ->
+    ->   OPEN cur;
+    ->   read_loop: LOOP
+    ->     FETCH cur INTO word;
+    ->     IF done THEN
+    ->       LEAVE read_loop;
+    ->     END IF;
+    ->
+    ->     IF word = REVERSE(word) THEN
+    ->       SELECT CONCAT('Palindrome: ', word) AS Output;
+    ->     END IF;
+    ->   END LOOP;
+    ->   CLOSE cur;
+    -> END;
+    -> //
+ERROR 1304 (42000): PROCEDURE check_all_palindromes already exists
+mysql>
+mysql> DELIMITER ;
+mysql> call check_all_palindromes();
+Query OK, 0 rows affected (0.00 sec)
+
