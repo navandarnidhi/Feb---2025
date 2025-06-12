@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 class Student {
@@ -61,7 +62,7 @@ public:
     }
 
     // Display student details
-    void displayInfo() {
+    void displayInfo() const {
         cout << "\n--- Student Information ---\n";
         cout << "Name       : " << name << endl;
         cout << "Roll Number: " << rollNumber << endl;
@@ -71,7 +72,7 @@ public:
 };
 
 int main() {
-    Student s;
+    vector<Student> students;
     int choice;
 
     do {
@@ -82,11 +83,11 @@ int main() {
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
-
         cin.ignore(); // To clear newline left in the buffer
 
         switch (choice) {
         case 1: {
+            Student s;
             string name;
             int roll;
             float marks;
@@ -97,20 +98,48 @@ int main() {
             cin >> roll;
             cout << "Enter marks: ";
             cin >> marks;
+            cin.ignore();
 
             s.setName(name);
             s.setRollNumber(roll);
             s.setMarks(marks);
             s.setGrade('-'); // Placeholder before calculation
 
+            students.push_back(s);
+            cout << "Student added successfully.\n";
             break;
         }
         case 2:
-            s.displayInfo();
+            if (students.empty()) {
+                cout << "No students to display.\n";
+            } else {
+                for (const auto& stu : students) {
+                    stu.displayInfo();
+                }
+            }
             break;
-        case 3:
-            s.calculateGrade();
+        case 3: {
+            if (students.empty()) {
+                cout << "No students to calculate grade for.\n";
+            } else {
+                int roll;
+                cout << "Enter roll number to calculate grade: ";
+                cin >> roll;
+                bool found = false;
+                for (auto& stu : students) {
+                    if (stu.getRollNumber() == roll) {
+                        stu.calculateGrade();
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) {
+                    cout << "Student with roll number " << roll << " not found.\n";
+                }
+            }
+            cin.ignore();
             break;
+        }
         case 4:
             cout << "Exiting program.\n";
             break;

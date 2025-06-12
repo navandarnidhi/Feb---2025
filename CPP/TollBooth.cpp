@@ -29,13 +29,23 @@ class: - Display a menu with the following options:
 TollBooth class. - Continue displaying the menu until the user chooses to exit. - Define a fixed toll amount for each type of car (e.g., $2 for standard cars, $5 for trucks, $10 
 for buses). 
 */
+
+
 #include <iostream>
+#include <vector>
 using namespace std;
+
+struct Transaction {
+    int vehicleType;
+    int count;
+    double tollAmount;
+};
 
 class TollBooth {
 private:
     int totalVehicles;
     double totalRevenue;
+    vector<Transaction> transactions; // Store all transactions
 
 public:
     TollBooth() {
@@ -46,12 +56,14 @@ public:
     void reset() {
         totalVehicles = 0;
         totalRevenue = 0.0;
+        transactions.clear();
         cout << "Booth statistics have been reset.\n";
     }
 
     void vehiclePayingToll(int vehicleType, int count, double tollAmount) {
         totalVehicles += count;
         totalRevenue += tollAmount * count;
+        transactions.push_back({vehicleType, count, tollAmount});
 
         string typeName;
         switch(vehicleType) {
@@ -71,6 +83,27 @@ public:
     double getTotalRevenue() const {
         return totalRevenue;
     }
+
+    void printAllTransactions() const {
+        if (transactions.empty()) {
+            cout << "No transactions to display.\n";
+            return;
+        }
+        cout << "\n--- All TollBooth Transactions ---\n";
+        for (const auto& t : transactions) {
+            string typeName;
+            switch(t.vehicleType) {
+                case 1: typeName = "Standard Car"; break;
+                case 2: typeName = "Truck"; break;
+                case 3: typeName = "Bus"; break;
+                default: typeName = "Unknown Vehicle"; break;
+            }
+            cout << "Vehicle: " << typeName
+                 << ", Count: " << t.count
+                 << ", Toll per Vehicle: $" << t.tollAmount
+                 << ", Total Toll: $" << t.tollAmount * t.count << endl;
+        }
+    }
 };
 
 int main() {
@@ -89,7 +122,8 @@ int main() {
         cout << "4. Display total vehicles passed\n";
         cout << "5. Display total revenue collected\n";
         cout << "6. Reset booth statistics\n";
-        cout << "7. Exit\n";
+        cout << "7. Print all transactions\n";
+        cout << "8. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
 
@@ -120,12 +154,15 @@ int main() {
                 booth.reset();
                 break;
             case 7:
+                booth.printAllTransactions();
+                break;
+            case 8:
                 cout << "Exiting program.\n";
                 break;
             default:
                 cout << "Invalid choice. Please try again.\n";
         }
-    } while (choice != 7);
+    } while (choice != 8);
 
     return 0;
 }
