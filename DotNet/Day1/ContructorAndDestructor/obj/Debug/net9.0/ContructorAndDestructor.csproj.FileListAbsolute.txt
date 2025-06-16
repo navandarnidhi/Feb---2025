@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\bin\Debug\net9.0\ContructorAndDestructor.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\bin\Debug\net9.0\ContructorAndDestructor.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\bin\Debug\net9.0\ContructorAndDestructor.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\bin\Debug\net9.0\ContructorAndDestructor.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\bin\Debug\net9.0\ContructorAndDestructor.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\refint\ContructorAndDestructor.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ContructorAndDestructor.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ContructorAndDestructor\obj\Debug\net9.0\ref\ContructorAndDestructor.dll

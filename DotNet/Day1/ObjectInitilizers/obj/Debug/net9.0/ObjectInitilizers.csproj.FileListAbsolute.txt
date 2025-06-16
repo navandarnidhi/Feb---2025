@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\bin\Debug\net9.0\ObjectInitilizers.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\bin\Debug\net9.0\ObjectInitilizers.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\bin\Debug\net9.0\ObjectInitilizers.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\bin\Debug\net9.0\ObjectInitilizers.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\bin\Debug\net9.0\ObjectInitilizers.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\refint\ObjectInitilizers.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ObjectInitilizers.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day1\ObjectInitilizers\obj\Debug\net9.0\ref\ObjectInitilizers.dll
