@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\bin\Debug\net9.0\InterfaceExample1.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\bin\Debug\net9.0\InterfaceExample1.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\bin\Debug\net9.0\InterfaceExample1.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\bin\Debug\net9.0\InterfaceExample1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\bin\Debug\net9.0\InterfaceExample1.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\refint\InterfaceExample1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\InterfaceExample1.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\InterfaceExample1\obj\Debug\net9.0\ref\InterfaceExample1.dll

@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\bin\Debug\net9.0\RefAndValueTypes2.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\bin\Debug\net9.0\RefAndValueTypes2.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\bin\Debug\net9.0\RefAndValueTypes2.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\bin\Debug\net9.0\RefAndValueTypes2.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\bin\Debug\net9.0\RefAndValueTypes2.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\refint\RefAndValueTypes2.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\RefAndValueTypes2.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\RefAndValueTypes2\obj\Debug\net9.0\ref\RefAndValueTypes2.dll

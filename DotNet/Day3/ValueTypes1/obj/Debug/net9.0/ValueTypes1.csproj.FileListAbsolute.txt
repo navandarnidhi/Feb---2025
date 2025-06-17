@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\bin\Debug\net9.0\ValueTypes1.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\bin\Debug\net9.0\ValueTypes1.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\bin\Debug\net9.0\ValueTypes1.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\bin\Debug\net9.0\ValueTypes1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\bin\Debug\net9.0\ValueTypes1.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\refint\ValueTypes1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ValueTypes1.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\ValueTypes1\obj\Debug\net9.0\ref\ValueTypes1.dll

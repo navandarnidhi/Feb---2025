@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\bin\Debug\net9.0\DefaultImplementationInterfaces1.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\refint\DefaultImplementationInterfaces1.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\DefaultImplementationInterfaces1.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day3\DefaultImplementationInterfaces1\obj\Debug\net9.0\ref\DefaultImplementationInterfaces1.dll
