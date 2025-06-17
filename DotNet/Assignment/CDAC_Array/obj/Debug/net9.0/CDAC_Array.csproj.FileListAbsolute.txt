@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\bin\Debug\net9.0\CDAC_Array.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\bin\Debug\net9.0\CDAC_Array.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\bin\Debug\net9.0\CDAC_Array.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\bin\Debug\net9.0\CDAC_Array.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\bin\Debug\net9.0\CDAC_Array.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\refint\CDAC_Array.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\CDAC_Array.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\CDAC_Array\obj\Debug\net9.0\ref\CDAC_Array.dll

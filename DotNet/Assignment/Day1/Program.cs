@@ -1,109 +1,172 @@
-﻿using System;
+﻿using System.Net;
 
 namespace Day1
 {
-    class Employee
+    internal class Program
     {
-        // Fields
-        private string name;
-        private int empNo;
-        private decimal basic;
-        private short deptNo;
+        static void Main()
+        {
+            Employee o1 = new Employee(1, "Amol", 123465, 10);
+            Employee o2 = new Employee(1, "Amol", 123465);
+            Employee o3 = new Employee(1, "Amol");
+            Employee o4 = new Employee(1);
+            Employee o5 = new Employee();
 
-        // Properties with validation
+            static void PrintEmployee(Employee emp)
+            {
+                Console.WriteLine("EmpNo: " + emp.EmpNo);
+                Console.WriteLine("Name: " + emp.Name);
+                Console.WriteLine("Basic: " + emp.Basic);
+                Console.WriteLine("DeptNo: " + emp.DeptNo);
+                Console.WriteLine("Net Salary: " + emp.GetNetSalary());
+                Console.WriteLine("----------------------------------");
+            }
+
+            PrintEmployee(o1);
+            PrintEmployee(o2);
+            PrintEmployee(o3);
+            PrintEmployee(o4);
+            PrintEmployee(o5);
+
+
+
+
+
+        }
+    }
+
+    public class Employee
+    {
+
+        //fields
+        private string name;
         public string Name
         {
-            get => name;
             set
             {
-                if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("Name cannot be blank.");
-                name = value;
+                if (value.Trim() == null || value.Trim().Length == 0)
+                {
+                    Console.WriteLine("Name can not be null");
+                }
+                else
+                    name = value;
+            }
+            get
+            {
+
+                return name;
             }
         }
 
+        private int empno;
         public int EmpNo
         {
-            get => empNo;
             set
             {
-                if (value <= 0)
-                    throw new ArgumentException("EmpNo must be greater than 0.");
-                empNo = value;
+                if (value > 0)
+                {
+                    empno = value;
+                }
+                else
+                {
+                    Console.WriteLine("Cant be less than 0");
+                }
             }
-        }
+            get
+            {
+                return empno;
+            }
 
+        }
+        private decimal basic;
         public decimal Basic
         {
-            get => basic;
             set
             {
-                if (value < 10000 || value > 200000)
-                    throw new ArgumentException("Basic salary must be between 10,000 and 2,00,000.");
-                basic = value;
+                if (value > 25000 && value <= 30000)
+                {
+                    basic = 28000;
+                }
+                else if (value > 30000)
+                {
+                    basic = 32500;
+                }
+                else
+                {
+                    Console.WriteLine("Enter valid salary");
+                }
+
+
+
+            }
+            get
+            {
+                return basic;
             }
         }
-
+        private short deptno;
         public short DeptNo
         {
-            get => deptNo;
             set
             {
-                if (value <= 0)
-                    throw new ArgumentException("DeptNo must be greater than 0.");
-                deptNo = value;
+                if (value > 0)
+                {
+                    deptno = value;
+                }
+                else
+                {
+                    Console.WriteLine("Enter valid department number");
+                }
+            }
+            get
+            {
+                return deptno;
             }
         }
 
-        // Method to calculate net salary
+        public Employee()
+        {
+
+        }
+
+        public Employee(int EmpNo = 0, string Name = "", decimal Basic = 0, short DeptNo = 0)
+        {
+            this.Name = Name;
+            this.EmpNo = EmpNo;
+            this.DeptNo = DeptNo;
+            this.Basic = Basic;
+
+        }
+
+
         public decimal GetNetSalary()
         {
-            decimal hra = Basic * 0.4M;
-            decimal da = Basic * 0.1M;
-            decimal pf = Basic * 0.12M;
-            return Basic + hra + da - pf;
+            return Basic + 20000.0M - 3000.0M;
         }
 
-        // Constructors
-        public Employee(int empNo, string name, decimal basic, short deptNo)
-        {
-            EmpNo = empNo;
-            Name = name;
-            Basic = basic;
-            DeptNo = deptNo;
-        }
 
-        public Employee(int empNo, string name, decimal basic) : this(empNo, name, basic, 1) { }
-
-        public Employee(int empNo, string name) : this(empNo, name, 10000, 1) { }
-
-        public Employee(int empNo) : this(empNo, "Default Name", 10000, 1) { }
-
-        public Employee() : this(1, "Default Name", 10000, 1) { }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            try
-            {
-                Employee o1 = new Employee(1, "Amol", 123465, 10);
-                Employee o2 = new Employee(2, "Sujit", 105000);
-                Employee o3 = new Employee(3, "Priya");
-                Employee o4 = new Employee(4);
-                Employee o5 = new Employee();
-
-                Console.WriteLine($"Net Salary of {o1.Name} (EmpNo {o1.EmpNo}): {o1.GetNetSalary():C}");
-                Console.WriteLine($"Net Salary of {o2.Name} (EmpNo {o2.EmpNo}): {o2.GetNetSalary():C}");
-                Console.WriteLine($"Net Salary of {o3.Name} (EmpNo {o3.EmpNo}): {o3.GetNetSalary():C}");
-                Console.WriteLine($"Net Salary of {o4.Name} (EmpNo {o4.EmpNo}): {o4.GetNetSalary():C}");
-                Console.WriteLine($"Net Salary of {o5.Name} (EmpNo {o5.EmpNo}): {o5.GetNetSalary():C}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
-            }
-        }
     }
 }
+/*
+ Create a Class Employee with the following specifications
+
+Properties
+----------
+string Name -> no blank names should be allowed
+int EmpNo -> must be greater than 0
+decimal Basic -> must be between some range
+short DeptNo -> must be > 0
+
+Methods
+-------
+decimal GetNetSalary() -> returns calculated net salary (Use any formula to get net salary based on Basic salary)
+
+Create constructors to accept initial values for Employee obj
+eg
+Employee o1 = new Employee(1,"Amol",123465, 10);
+Employee o2 = new Employee(1,"Amol",123465);
+Employee o3 = new Employee(1,"Amol");
+Employee o4 = new Employee(1);
+return Basic + 20000.0M - 3000.0M;
+
+ */

@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\bin\Debug\net9.0\InheritanceAssignment.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\refint\InheritanceAssignment.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\InheritanceAssignment.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InheritanceAssignment\obj\Debug\net9.0\ref\InheritanceAssignment.dll
