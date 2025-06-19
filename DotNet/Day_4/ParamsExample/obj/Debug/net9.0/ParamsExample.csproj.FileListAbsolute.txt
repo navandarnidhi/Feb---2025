@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\bin\Debug\net9.0\ParamsExample.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\bin\Debug\net9.0\ParamsExample.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\bin\Debug\net9.0\ParamsExample.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\bin\Debug\net9.0\ParamsExample.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\bin\Debug\net9.0\ParamsExample.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\refint\ParamsExample.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ParamsExample.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\ParamsExample\obj\Debug\net9.0\ref\ParamsExample.dll

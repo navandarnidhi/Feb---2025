@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\bin\Debug\net9.0\Interface_Employee.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\bin\Debug\net9.0\Interface_Employee.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\bin\Debug\net9.0\Interface_Employee.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\bin\Debug\net9.0\Interface_Employee.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\bin\Debug\net9.0\Interface_Employee.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\refint\Interface_Employee.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\Interface_Employee.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\Interface_Employee\obj\Debug\net9.0\ref\Interface_Employee.dll

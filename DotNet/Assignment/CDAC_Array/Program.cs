@@ -4,37 +4,34 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter number of CDAC batches: ");
-        int batchCount = int.Parse(Console.ReadLine());
+        Console.Write("Enter number of batches: ");
+        int batches = int.Parse(Console.ReadLine());
 
-        // Jagged array where each row = one batch, containing marks of students
-        int[][] studentMarks = new int[batchCount][];
+        // Create a jagged array (array of arrays)
+        int[][] marks = new int[batches][];
 
-        for (int i = 0; i < batchCount; i++)
+        for (int i = 0; i < batches; i++)
         {
-            Console.Write($"Enter number of students in Batch {i + 1}: ");
-            int studentCount = int.Parse(Console.ReadLine());
+            Console.Write($"Enter number of students in batch {i + 1}: ");
+            int students = int.Parse(Console.ReadLine());
 
-            studentMarks[i] = new int[studentCount];
+            marks[i] = new int[students];
 
-            for (int j = 0; j < studentCount; j++)
+            for (int j = 0; j < students; j++)
             {
-                Console.Write($"Enter mark for Student {j + 1} in Batch {i + 1}: ");
-                studentMarks[i][j] = int.Parse(Console.ReadLine());
+                Console.Write($"Enter mark for student {j + 1} in batch {i + 1}: ");
+                marks[i][j] = int.Parse(Console.ReadLine());
             }
         }
 
-        Console.WriteLine("\n=== Displaying Student Marks ===");
-        for (int i = 0; i < studentMarks.Length; i++)
+        Console.WriteLine("\n--- Displaying Marks ---");
+        for (int i = 0; i < batches; i++)
         {
             Console.WriteLine($"Batch {i + 1}:");
-
-            for (int j = 0; j < studentMarks[i].Length; j++)
+            for (int j = 0; j < marks[i].Length; j++)
             {
-                Console.WriteLine($"  Student {j + 1}: {studentMarks[i][j]}");
+                Console.WriteLine($"  Student {j + 1}: {marks[i][j]}");
             }
         }
-
-        Console.WriteLine("\nAll student marks displayed.");
     }
 }

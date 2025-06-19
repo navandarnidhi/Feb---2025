@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\bin\Debug\net9.0\Lambdas.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\bin\Debug\net9.0\Lambdas.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\bin\Debug\net9.0\Lambdas.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\bin\Debug\net9.0\Lambdas.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\bin\Debug\net9.0\Lambdas.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\refint\Lambdas.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\Lambdas.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day_4\Lambdas\obj\Debug\net9.0\ref\Lambdas.dll

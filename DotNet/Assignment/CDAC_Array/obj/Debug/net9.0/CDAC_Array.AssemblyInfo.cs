@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CDAC_Array")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a73c5a575ca96d06faf8fd4dd73e85b9792197a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6769449ff2ebe2bc9ab1a8e91e9c0d0334b65f82")]
 [assembly: System.Reflection.AssemblyProductAttribute("CDAC_Array")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CDAC_Array")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

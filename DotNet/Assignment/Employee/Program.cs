@@ -1,24 +1,24 @@
 ﻿using System;
 
-internal class Employee
+class Employee
 {
-    public int EmpNo { get; set; }
-    public string Name { get; set; }
-    public decimal Salary { get; set; }
+    public int EmpNo;
+    public string Name;
+    public double Salary;
 
-    public void AcceptDetails()
+    public void Accept()
     {
-        Console.Write("Enter EmpNo: ");
+        Console.Write("Enter Employee Number: ");
         EmpNo = int.Parse(Console.ReadLine());
 
         Console.Write("Enter Name: ");
         Name = Console.ReadLine();
 
         Console.Write("Enter Salary: ");
-        Salary = decimal.Parse(Console.ReadLine());
+        Salary = double.Parse(Console.ReadLine());
     }
 
-    public void DisplayDetails()
+    public void Display()
     {
         Console.WriteLine($"EmpNo: {EmpNo}, Name: {Name}, Salary: {Salary}");
     }
@@ -36,35 +36,35 @@ class Program
         // Accept employee details
         for (int i = 0; i < n; i++)
         {
-            Console.WriteLine($"\nEnter details for Employee {i + 1}:");
+            Console.WriteLine($"\nEnter details for Employee {i + 1}");
             employees[i] = new Employee();
-            employees[i].AcceptDetails();
+            employees[i].Accept();
         }
 
         // Find employee with highest salary
-        Employee highestSalaryEmp = employees[0];
+        Employee highest = employees[0];
         for (int i = 1; i < n; i++)
         {
-            if (employees[i].Salary > highestSalaryEmp.Salary)
+            if (employees[i].Salary > highest.Salary)
             {
-                highestSalaryEmp = employees[i];
+                highest = employees[i];
             }
         }
 
         Console.WriteLine("\nEmployee with highest salary:");
-        highestSalaryEmp.DisplayDetails();
+        highest.Display();
 
-        // Search employee by EmpNo
+        // Search by EmpNo
         Console.Write("\nEnter EmpNo to search: ");
         int searchEmpNo = int.Parse(Console.ReadLine());
-        bool found = false;
 
-        foreach (var emp in employees)
+        bool found = false;
+        foreach (Employee emp in employees)
         {
             if (emp.EmpNo == searchEmpNo)
             {
                 Console.WriteLine("Employee found:");
-                emp.DisplayDetails();
+                emp.Display();
                 found = true;
                 break;
             }
@@ -72,7 +72,7 @@ class Program
 
         if (!found)
         {
-            Console.WriteLine("Employee with given EmpNo not found.");
+            Console.WriteLine("Employee not found.");
         }
     }
 }

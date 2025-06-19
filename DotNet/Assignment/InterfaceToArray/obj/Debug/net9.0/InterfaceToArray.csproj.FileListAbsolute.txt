@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\bin\Debug\net9.0\InterfaceToArray.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\bin\Debug\net9.0\InterfaceToArray.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\bin\Debug\net9.0\InterfaceToArray.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\bin\Debug\net9.0\InterfaceToArray.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\bin\Debug\net9.0\InterfaceToArray.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\refint\InterfaceToArray.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\InterfaceToArray.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Assignment\InterfaceToArray\obj\Debug\net9.0\ref\InterfaceToArray.dll
