@@ -36,7 +36,7 @@ namespace InheritanceAssignment
             }
         }
 
-        public int EmpNo { get; } // readonly auto-property
+        public int EmpNo { get; }
 
         public short DeptNo
         {
@@ -51,15 +51,14 @@ namespace InheritanceAssignment
         }
 
         public abstract decimal Basic { get; set; }
-
         public abstract decimal CalcNetSalary();
 
-        public void Insert() => Console.WriteLine("Insert to DB");
-        public void Update() => Console.WriteLine("Update to DB");
-        public void Delete() => Console.WriteLine("Delete from DB");
+        public virtual void Insert() => Console.WriteLine("Insert to DB - Employee");
+        public virtual void Update() => Console.WriteLine("Update to DB - Employee");
+        public virtual void Delete() => Console.WriteLine("Delete from DB - Employee");
     }
 
-    public class Manager : Employee
+    public class Manager : Employee, IDbFunctions
     {
         string designation;
         decimal basic;
@@ -99,9 +98,13 @@ namespace InheritanceAssignment
         {
             return Basic + (Basic * 0.25m);
         }
+
+        public new void Insert() => Console.WriteLine("Insert to DB - Manager");
+        public new void Update() => Console.WriteLine("Update to DB - Manager");
+        public new void Delete() => Console.WriteLine("Delete from DB - Manager");
     }
 
-    public class GeneralManager : Manager
+    public class GeneralManager : Manager, IDbFunctions
     {
         public string Perks { get; set; }
 
@@ -128,9 +131,13 @@ namespace InheritanceAssignment
         {
             return Basic + (Basic * 0.35m);
         }
+
+        public new void Insert() => Console.WriteLine("Insert to DB - GeneralManager");
+        public new void Update() => Console.WriteLine("Update to DB - GeneralManager");
+        public new void Delete() => Console.WriteLine("Delete from DB - GeneralManager");
     }
 
-    public class CEO : Employee
+    public class CEO : Employee, IDbFunctions
     {
         private decimal basic;
 
@@ -156,6 +163,10 @@ namespace InheritanceAssignment
         {
             return Basic + (Basic * 0.5m);
         }
+
+        public new void Insert() => Console.WriteLine("Insert to DB - CEO");
+        public new void Update() => Console.WriteLine("Update to DB - CEO");
+        public new void Delete() => Console.WriteLine("Delete from DB - CEO");
     }
 
     class Program
@@ -170,9 +181,10 @@ namespace InheritanceAssignment
             Console.WriteLine($"{e2.GetType().Name} Name: {e2.Name}, EmpNo: {e2.EmpNo}, NetSalary: {e2.CalcNetSalary():F2}");
             Console.WriteLine($"{e3.GetType().Name} Name: {e3.Name}, EmpNo: {e3.EmpNo}, NetSalary: {e3.CalcNetSalary():F2}");
 
-            //e1.Insert();
-            //e2.Update();
-            //e3.Delete();
+            // Call interface methods
+            ((IDbFunctions)e1).Insert();
+            ((IDbFunctions)e2).Update();
+            ((IDbFunctions)e3).Delete();
         }
     }
 }

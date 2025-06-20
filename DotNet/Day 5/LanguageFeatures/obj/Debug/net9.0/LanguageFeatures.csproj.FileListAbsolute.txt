@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\bin\Debug\net9.0\LanguageFeatures.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\bin\Debug\net9.0\LanguageFeatures.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\bin\Debug\net9.0\LanguageFeatures.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\bin\Debug\net9.0\LanguageFeatures.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\bin\Debug\net9.0\LanguageFeatures.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\refint\LanguageFeatures.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\LanguageFeatures.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day 5\LanguageFeatures\obj\Debug\net9.0\ref\LanguageFeatures.dll
