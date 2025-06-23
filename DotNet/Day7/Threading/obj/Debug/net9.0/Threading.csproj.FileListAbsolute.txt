@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\bin\Debug\net9.0\Threading.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\bin\Debug\net9.0\Threading.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\bin\Debug\net9.0\Threading.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\bin\Debug\net9.0\Threading.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\bin\Debug\net9.0\Threading.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\refint\Threading.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\Threading.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day7\Threading\obj\Debug\net9.0\ref\Threading.dll
