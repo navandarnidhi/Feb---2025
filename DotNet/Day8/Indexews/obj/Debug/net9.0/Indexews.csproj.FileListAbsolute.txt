@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\bin\Debug\net9.0\Indexews.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\bin\Debug\net9.0\Indexews.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\bin\Debug\net9.0\Indexews.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\bin\Debug\net9.0\Indexews.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\bin\Debug\net9.0\Indexews.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\refint\Indexews.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\Indexews.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Indexews\obj\Debug\net9.0\ref\Indexews.dll

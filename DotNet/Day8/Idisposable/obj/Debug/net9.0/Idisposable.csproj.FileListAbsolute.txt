@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\bin\Debug\net9.0\Idisposable.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\bin\Debug\net9.0\Idisposable.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\bin\Debug\net9.0\Idisposable.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\bin\Debug\net9.0\Idisposable.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\bin\Debug\net9.0\Idisposable.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\refint\Idisposable.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\Idisposable.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\Idisposable\obj\Debug\net9.0\ref\Idisposable.dll

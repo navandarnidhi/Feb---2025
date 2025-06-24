@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\bin\Debug\net9.0\TaskExample.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\bin\Debug\net9.0\TaskExample.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\bin\Debug\net9.0\TaskExample.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\bin\Debug\net9.0\TaskExample.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\bin\Debug\net9.0\TaskExample.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\refint\TaskExample.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\TaskExample.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TaskExample\obj\Debug\net9.0\ref\TaskExample.dll

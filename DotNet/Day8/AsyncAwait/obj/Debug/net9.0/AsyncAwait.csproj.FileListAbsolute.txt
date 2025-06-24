@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\bin\Debug\net9.0\AsyncAwait.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\bin\Debug\net9.0\AsyncAwait.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\bin\Debug\net9.0\AsyncAwait.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\bin\Debug\net9.0\AsyncAwait.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\bin\Debug\net9.0\AsyncAwait.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\refint\AsyncAwait.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\AsyncAwait.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\AsyncAwait\obj\Debug\net9.0\ref\AsyncAwait.dll
