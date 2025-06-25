@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexews", "Indexews\Indexe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverLoading", "OperatorOverLoading\OperatorOverLoading.csproj", "{52A406C9-57D5-4EAF-884B-372F3BBDB268}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesAndValueTuples", "TuplesAndValueTuples\TuplesAndValueTuples.csproj", "{03727A64-BB3C-46E1-9713-3ECE47DF33F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{52A406C9-57D5-4EAF-884B-372F3BBDB268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A406C9-57D5-4EAF-884B-372F3BBDB268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A406C9-57D5-4EAF-884B-372F3BBDB268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03727A64-BB3C-46E1-9713-3ECE47DF33F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03727A64-BB3C-46E1-9713-3ECE47DF33F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03727A64-BB3C-46E1-9713-3ECE47DF33F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03727A64-BB3C-46E1-9713-3ECE47DF33F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace ThreadingExamples
+﻿namespace Threading
 {
     internal class Program
     {
@@ -14,7 +14,7 @@
             }
 
         }
-        static void Main1()
+        static void Main()
         {
             Thread t1 = new Thread(new ThreadStart(Func1));
             Thread t2 = new Thread(Func2);
@@ -23,7 +23,7 @@
 
             t1.Start();
             t2.Start();
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Main : " + i);
             }
@@ -83,7 +83,7 @@
         }
 
 
-        static void Main()
+        static void Main5()
         {
             AutoResetEvent wh = new AutoResetEvent(false);
 

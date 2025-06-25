@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QMaflx1MPlo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nidhi\\Desktop\\Feb---2025\\DotNet\\Day9\\Serializable\\Serializable.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nidhi\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

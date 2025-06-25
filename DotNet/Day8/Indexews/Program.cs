@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-namespace Indexews﻿
+namespace Indexews﻿1
 {
     internal class Program
     {
@@ -40,7 +40,7 @@ namespace Indexews﻿
     }
 }
 
-namespace Indexer2
+namespace Indexews
 {
     class Program
     {

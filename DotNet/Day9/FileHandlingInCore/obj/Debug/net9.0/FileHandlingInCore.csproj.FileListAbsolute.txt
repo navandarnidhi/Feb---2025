@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\bin\Debug\net9.0\FileHandlingInCore.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\refint\FileHandlingInCore.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\FileHandlingInCore.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day9\FileHandlingInCore\obj\Debug\net9.0\ref\FileHandlingInCore.dll

@@ -1,0 +1,15 @@
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.sourcelink.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\bin\Debug\net9.0\TuplesAndValueTuples.exe
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\bin\Debug\net9.0\TuplesAndValueTuples.deps.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\bin\Debug\net9.0\TuplesAndValueTuples.runtimeconfig.json
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\bin\Debug\net9.0\TuplesAndValueTuples.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\bin\Debug\net9.0\TuplesAndValueTuples.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\refint\TuplesAndValueTuples.dll
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.pdb
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\TuplesAndValueTuples.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\Feb---2025\DotNet\Day8\TuplesAndValueTuples\obj\Debug\net9.0\ref\TuplesAndValueTuples.dll
