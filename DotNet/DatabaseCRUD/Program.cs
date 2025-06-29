@@ -12,12 +12,12 @@ namespace DatabaseCRUD
         static void Main()
         {
             // Create a sample employee
-            Employee emp = new Employee { EmpNo = 6, Name = "Anay", Basic = 5000, DeptNo = 10 };
+            Employee emp = new Employee { EmpNo = 7, Name = "virram", Basic = 5000, DeptNo = 10 };
 
             InsertEmployeeUsingSP(emp);
 
             //emp.Name = "Updated";
-            emp.Basic = 7000;
+            emp.Basic = 4000;
             UpdateEmployeeUsingSP(emp);
 
             var fetched = GetEmployeeById(emp.EmpNo);
@@ -33,8 +33,8 @@ namespace DatabaseCRUD
 
         static void InsertEmployeeUsingSP(Employee emp)
         {
-            using SqlConnection cn = new SqlConnection(connectionString);
-            using SqlCommand cmd = new SqlCommand("InsertEmployee", cn);
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand("InsertEmployee", cn);
             cmd.CommandType = CommandType.StoredProcedure;
 
             cmd.Parameters.AddWithValue("@EmpNo", emp.EmpNo);
@@ -49,8 +49,8 @@ namespace DatabaseCRUD
 
         static void UpdateEmployeeUsingSP(Employee emp)
         {
-            using SqlConnection cn = new SqlConnection(connectionString);
-            using SqlCommand cmd = new SqlCommand("UpdateEmployee", cn);
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand("UpdateEmployee", cn);
             cmd.CommandType = CommandType.StoredProcedure;
 
             cmd.Parameters.AddWithValue("@EmpNo", emp.EmpNo);
@@ -65,8 +65,8 @@ namespace DatabaseCRUD
 
         static void DeleteEmployeeUsingSP(int empNo)
         {
-            using SqlConnection cn = new SqlConnection(connectionString);
-            using SqlCommand cmd = new SqlCommand("DeleteEmployee", cn);
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand("DeleteEmployee", cn);
             cmd.CommandType = CommandType.StoredProcedure;
 
             cmd.Parameters.AddWithValue("@EmpNo", empNo);
@@ -79,8 +79,8 @@ namespace DatabaseCRUD
         static Employee GetEmployeeById(int empNo)
         {
             Employee emp = null;
-            using SqlConnection cn = new SqlConnection(connectionString);
-            using SqlCommand cmd = new SqlCommand("SELECT * FROM Employees WHERE EmpNo = @EmpNo", cn);
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Employees WHERE EmpNo = @EmpNo", cn);
             cmd.Parameters.AddWithValue("@EmpNo", empNo);
 
             cn.Open();
@@ -101,8 +101,8 @@ namespace DatabaseCRUD
         static List<Employee> GetAllEmployees()
         {
             List<Employee> employees = new List<Employee>();
-            using SqlConnection cn = new SqlConnection(connectionString);
-            using SqlCommand cmd = new SqlCommand("SELECT * FROM Employees", cn);
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Employees", cn);
 
             cn.Open();
             using SqlDataReader reader = cmd.ExecuteReader();
@@ -115,7 +115,7 @@ namespace DatabaseCRUD
                     Basic = Convert.ToDecimal(reader["Basic"]),
                     DeptNo = Convert.ToInt32(reader["DeptNo"])
                 });
-            }
+            }   
             return employees;
         }
     }

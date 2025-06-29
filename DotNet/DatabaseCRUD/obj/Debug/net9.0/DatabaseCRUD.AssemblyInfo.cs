@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatabaseCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4211dabc699ee7bfd19b6270dac9358e85960e90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0eb819ef5bed981e02bbb4ac543d6a025aafd6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatabaseCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatabaseCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
